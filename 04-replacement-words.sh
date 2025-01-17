@@ -3,10 +3,12 @@
 echo "the repalcement of a file is"
 # Backup Option: If you want to create a backup before modifying the file, use:
 
-#sed -i.bak "s/\b$planet\b/$soumya/g" "$(file"
-sed -i '' "s/soumya/planet/g" file5.txt 
+sed -i.bak "s/\b$planet\b/$soumya/g" "$file"
 
-cat file5.txt
+
+#sed -i '' "s/soumya/planet/g" file5.txt 
+
+cat $file
 
 # without backup
 #sed -i "s/$word_to_replace/$replacement_word/g" "$file"
