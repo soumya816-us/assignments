@@ -2,4 +2,4 @@
 
 echo " the reverse lines are"
 
-awk '{ print | "rev" }' input.txt > output.txt
+awk '{ print | "rev" }' file4.txt > output.txt
