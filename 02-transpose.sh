@@ -3,16 +3,16 @@
 awk '
 {
     for (i=1; i<=NF; i++) {
-        a[i][NR] = $i  # Store the i-th field of row NR in array a
+        a[i][NR] = $i  
     }
 }
 END {
-    # Print the transposed data
-    for (i=1; i<=NF; i++) {  # Loop over the fields (columns)
-        for (j=1; j<=NR; j++) {  # Loop over the rows
-            printf "%s ", a[i][j]  # Print column i, row j (transposed)
+
+    for (i=1; i<=NF; i++) {  
+        for (j=1; j<=NR; j++) {  
+            printf "%s ", a[i][j]  
         }
-        print ""  # Print a newline after each transposed row
+        print "" 
     }
 }
 ' file3.txt
