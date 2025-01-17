@@ -37,3 +37,6 @@ done < "$file"
 # Output the longest word
 echo "Longest word: $longest_word"
 echo "Length: $longest_length"
+
+
+#while executing enter file6.txt as args

@@ -1,0 +1,10 @@
+# for duplicate
+apple
+banana
+orange
+apple
+apple
+banana
+grape
+orange
+grape
