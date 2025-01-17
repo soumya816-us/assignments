@@ -8,7 +8,7 @@ sed -i.bak "s/\b$planet\b/$soumya/g" "$file"
 
 #sed -i '' "s/soumya/planet/g" file5.txt 
 
-cat $file
+#cat $file
 
 # without backup
 #sed -i "s/$word_to_replace/$replacement_word/g" "$file"
